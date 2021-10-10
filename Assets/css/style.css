@@ -62,71 +62,78 @@ body {
     margin:50px;
     color: #024e76;
 }
-.about-me {
-    padding-bottom: 300px;
+#about-me {
+    /* padding-bottom: 300px; */
+    display: flex;
 }
 .about-me-image {
-    float: left;
     width: 30%;
     text-align: center;
 }
 /* about me paragraph*/ 
-.about-me p {
-    float: right;
+.about-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70%;
     text-align: center;
-    padding-top: 100px;
     border-left: solid 3px #024e76;
-    margin-bottom: 200px;
 }
 /* work sample section*/
-.work {
-    padding-bottom: 700px;
+#work {
+    display:flex;
 }
-.work h2 {
+.work-title-container {
+    display: flex;
     width: 30%;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-.work div {
-    float: right;
+.work-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 70%;
     text-align: center;
     border-left: solid 3px #024e76;
 }
-#run-buddy, #second-website, #third-website {
+#run-buddy {
+    width: 90%;
+    height: 50%;
     opacity: .5;
     border: solid 4px #9de2ee; 
 }
-
+#second-website, #third-website {
+    width: 45%;
+    height: 30%;
+    opacity: .75;
+    border: solid 4px #9de2ee; 
+}
 /*footer*/
-.footer {
+#contact-info {
     display: flex;
     color: #024e76;
     margin: 50px;
   }
-  
-.footer h2 {
-    font-size: 24px;
+.info-text-container {
+    font-size: 16px;
     width: 30%;
-    float:left;
     text-align: center;
   }
-.footer div {
-    float: right;
+.contact-info-list {
     width: 70%;
     text-align: center;
     border-left: solid 3px #024e76;
+    display: flex;
+    list-style-type: none;
   }
-.footer div ul li {
-    display: inline-block;
-}
-.footer h3 {
+.phone h3, .email h3{
     font-size: 16px;
     text-decoration: underline;
-    float: right;
     padding: 0 10px 0 10px;
 }
-.footer a {
+.github a, .linkedin a {
     color: #024e76;
     font-weight: bold;
     font-size: 16px;
