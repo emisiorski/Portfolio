@@ -8,6 +8,7 @@ body {
     background-color: rgb(229, 234, 248);
     font-family: Helvetica, Arial, sans-serif;
 }
+/*header styling*/
 
 .header {
     padding: 40px;
@@ -35,6 +36,8 @@ body {
     text-decoration: underline;
     color: #9de2ee;
 }
+
+/*hero styling*/
 .hero {
     padding: 100px;
     width: 100%;
@@ -44,11 +47,13 @@ body {
     background-size: cover;
     background-position: center;
 }
+/* main section styling*/
 .resume {
     border-right: solid 3px #024e76;
     text-align: center;
     padding-bottom: 300px;
 }
+/*footer*/
 .footer {
     display: flex;
     color: #024e76;

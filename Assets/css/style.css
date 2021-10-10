@@ -68,12 +68,14 @@ body {
     border-right: solid 3px #024e76;
     text-align: center;
 }
-
+/* about me paragraph*/ 
 .about-me p {
     float: right;
     width: 70%;
     text-align: center;
+    padding-top: 100px;
 }
+/* work sample section*/
 
 .work h2 {
     width: 30%;
