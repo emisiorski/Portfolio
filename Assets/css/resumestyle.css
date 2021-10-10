@@ -12,11 +12,31 @@ body {
 
 .header {
     padding: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(5, 8, 26);
     color: #9de2ee;
 }
 .header div {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    
+}
+.header {
+    padding: 40px;
+    background-color: rgb(5, 8, 26);
+    color: #9de2ee;
+}
+.header h1 {
+    position: absolute;
+    border: solid 3px #9de2ee; 
+    margin-right: 600px;
+    background-color: #9de2ee;
+    color:rgb(5, 8, 26);
+}
+.header div {
+    position: absolute right;
+    justify-content: end;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -54,35 +74,30 @@ body {
     padding-bottom: 300px;
 }
 /*footer*/
-.footer {
+/*footer*/
+#contact-info {
     display: flex;
     color: #024e76;
     margin: 50px;
   }
-  
-.footer h2 {
-    font-size: 24px;
+.info-text-container {
+    font-size: 16px;
     width: 30%;
-    float:left;
-    border-right: solid 3px #024e76;
     text-align: center;
   }
-.footer div {
-    float: right;
+.contact-info-list {
     width: 70%;
     text-align: center;
-    
+    border-left: solid 3px #024e76;
+    display: flex;
+    list-style-type: none;
   }
-.footer div ul li {
-    display: inline-block;
-}
-.footer h3 {
+.phone h3, .email h3{
     font-size: 16px;
     text-decoration: underline;
-    float: right;
     padding: 0 10px 0 10px;
 }
-.footer a {
+.github a, .linkedin a {
     color: #024e76;
     font-weight: bold;
     font-size: 16px;
