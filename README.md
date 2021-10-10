@@ -18,3 +18,4 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+<img width="1440" alt="screenshot" src="https://user-images.githubusercontent.com/90798919/136715057-0afaf637-fedd-4d9b-80d1-a83acbfc5b92.png">
