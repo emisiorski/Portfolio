@@ -47,7 +47,7 @@ body {
 .hero {
     padding: 100px;
     width: 100%;
-    height: 200px;
+    height: 50px;
     margin-bottom: 25px;
     background-image: url("https://wallpaperaccess.com/full/1837508.jpg");
     background-size: cover;
@@ -60,12 +60,11 @@ body {
     color: #024e76;
 }
 .about-me {
-    padding-bottom: 500px;
+    padding-bottom: 300px;
 }
 .about-me-image {
     float: left;
     width: 30%;
-    border-right: solid 3px #024e76;
     text-align: center;
 }
 /* about me paragraph*/ 
@@ -74,18 +73,24 @@ body {
     width: 70%;
     text-align: center;
     padding-top: 100px;
+    border-left: solid 3px #024e76;
 }
 /* work sample section*/
-
+.work {
+    padding-bottom: 400px;
+}
 .work h2 {
     width: 30%;
-    border-right: solid 3px #024e76;
     text-align: center;
 }
-.work p {
+.work div {
     float: right;
     width: 70%;
     text-align: center;
+    border-left: solid 3px #024e76;
+}
+#run-buddy {
+    opacity: .5;
 }
 
 /*footer*/
@@ -99,14 +104,13 @@ body {
     font-size: 24px;
     width: 30%;
     float:left;
-    border-right: solid 3px #024e76;
     text-align: center;
   }
 .footer div {
     float: right;
     width: 70%;
     text-align: center;
-    
+    border-left: solid 3px #024e76;
   }
 .footer div ul li {
     display: inline-block;
