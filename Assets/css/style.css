@@ -17,12 +17,15 @@ body {
     color: #9de2ee;
 }
 .header h1 {
+    position: absolute;
     border: solid 3px #9de2ee; 
-    margin-right: 575px;
+    margin-right: 600px;
     background-color: #9de2ee;
     color:rgb(5, 8, 26);
 }
 .header div {
+    position: absolute right;
+    justify-content: end;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -74,10 +77,11 @@ body {
     text-align: center;
     padding-top: 100px;
     border-left: solid 3px #024e76;
+    margin-bottom: 200px;
 }
 /* work sample section*/
 .work {
-    padding-bottom: 400px;
+    padding-bottom: 700px;
 }
 .work h2 {
     width: 30%;
@@ -89,8 +93,9 @@ body {
     text-align: center;
     border-left: solid 3px #024e76;
 }
-#run-buddy {
+#run-buddy, #second-website, #third-website {
     opacity: .5;
+    border: solid 4px #9de2ee; 
 }
 
 /*footer*/
