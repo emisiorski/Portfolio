@@ -44,6 +44,11 @@ body {
     background-size: cover;
     background-position: center;
 }
+.resume {
+    border-right: solid 3px #024e76;
+    text-align: center;
+    padding-bottom: 300px;
+}
 .footer {
     display: flex;
     color: #024e76;
